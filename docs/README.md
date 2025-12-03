@@ -11,6 +11,12 @@ Execution emphasizes small, testable increments and visible workflow boards (Bac
 
 Communication and continuous improvement are explicit: teams run daily standups for blockers, weekly delivery syncs for progress and risks, end-of-sprint demos, and regular stakeholder updates. Escalation paths run from team triage → PM → Product Lead → Sponsor (with a separate path for security incidents). Retrospectives after sprints, releases, or incidents produce prioritized action items that are tracked back into the backlog with owners and due dates.
 
+## Process improvements included in this PR
+- Add a concise entry README for easier onboarding and navigation.
+- Expand Roles & Personas with additional supporting and specialist roles.
+- Add a PR checklist to reduce review friction and ensure quality gates are met before merges.
+- Add a focused release checklist to reduce deployment risk and standardize communications.
+
 ## Key process documents
 - [Project Management Overview](docs/octoacme-project-management-overview.md)
 - [Project Initiation Guide](docs/octoacme-project-initiation.md)
@@ -20,14 +26,6 @@ Communication and continuous improvement are explicit: teams run daily standups 
 - [Risk Management & Communication](docs/octoacme-risks-and-communication.md)
 - [Retrospective & Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](docs/octoacme-roles-and-personas.md)
-
-## How to use this README
-- Use it as the single entry point to familiarize new team members with OctoAcme's delivery practices.
-- Keep the Project One-pager and project-specific artifacts up to date in each project repo.
-- If you update a process doc, update this README to keep links and summaries current.
-
-## Acceptance Criteria (from issue #2)
-- [ ] Content aligns with existing process docs
-- [ ] Update improves clarity or closes a documented gap
-- [ ] Proposed content has been reviewed with stakeholders (if needed)
+- [PR Checklist](docs/octoacme-pr-checklist.md)
+- [Release Checklist](docs/octoacme-release-checklist.md)
 ```
